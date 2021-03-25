@@ -24,7 +24,7 @@ node* input_node(node* new_node) {
 
     new_node->name = n_name;
     new_node->id = n_id;
-    new_node->salary = n_salary; 
+    new_node->salary = n_salary;  
     new_node->p_next = new node;
     return new_node->p_next;
 }
@@ -32,7 +32,7 @@ void print_node() {
     struct node* ptr;
     ptr = root;
     cout << "----------------------------\n";
-    cout << "Name  ////  ID  ////  Salary\n";
+    cout << "Name  ////  ID  ////  Salary\ yg n";
     cout << "----------------------------\n";
     while (ptr->p_next != 0) {
         cout << ptr->name << " ";
